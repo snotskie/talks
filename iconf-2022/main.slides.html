@@ -14412,6 +14412,8 @@ div.jp-OutputPrompt {
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pandas</span> <span class="kn">import</span> <span class="n">read_csv</span><span class="p">,</span> <span class="n">DataFrame</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">HTML</span>
+<span class="kn">from</span> <span class="nn">os</span> <span class="kn">import</span> <span class="n">system</span>
 <span class="n">teaching</span> <span class="o">=</span> <span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;data/teaching.csv&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span>
 <span class="n">teaching</span><span class="p">[</span><span class="s2">&quot;Total&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">teaching</span><span class="p">[</span><span class="s2">&quot;Sections&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="n">teaching</span><span class="p">[</span><span class="s2">&quot;Hours&quot;</span><span class="p">]</span>
 <span class="n">teaching</span><span class="p">[[</span><span class="s2">&quot;Format&quot;</span><span class="p">,</span> <span class="s2">&quot;Total&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;Format&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s2">&quot;Total&quot;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
@@ -14761,6 +14763,73 @@ div.jp-OutputPrompt {
 </ul>
 
 </div>
+</div></section></section><section><section>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Research">Research<a class="anchor-link" href="#Research">&#182;</a></h1>
+</div>
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">system</span><span class="p">(</span><span class="s2">&quot;pybtex-format iconf-2022/refs.bib iconf-2022/refs.html&quot;</span><span class="p">)</span>
+<span class="n">HTML</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s2">&quot;iconf-2022/refs.html&quot;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head><meta name="generator" content="Pybtex">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Bibliography</title>
+</head>
+<body>
+<dl>
+<dt>1</dt>
+<dd>Mariah&nbsp;A Knowles and David&nbsp;Williamson Shaffer.
+Hierarchical epistemic network analysis.
+In <em>Second International Conference on Quantitative Ethnography: Conference Proceedings Supplement</em>, 31. 2021.</dd>
+<dt>2</dt>
+<dd>Mariah&nbsp;A. Knowles and Lauren Scanlon.
+Networks of one and justice.
+Network Science: Networked Justice.</dd>
+<dt>3</dt>
+<dd>Mariah&nbsp;A Knowles.
+Telling stories of transitions: a demonstration of nonlinear epistemic network analysis.
+In <em>International Conference on Quantitative Ethnography</em>, 114–128. Springer, 2021.</dd>
+<dt>4</dt>
+<dd>Mariah&nbsp;A Knowles.
+Five motivating concerns for ai ethics instruction.
+<em>Proceedings of the Association for Information Science and Technology</em>, 58(1):472–476, 2021.</dd>
+</dl></body></html>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
@@ -14775,7 +14844,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 
-</div></section></section>
+</div></div></section></section>
 </div>
 </div>
 </body>
