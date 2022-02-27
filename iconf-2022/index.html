@@ -14385,192 +14385,21 @@ div.jp-OutputPrompt {
 <div class="slides"><section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="AI-Ethics-Education">AI Ethics Education<a class="anchor-link" href="#AI-Ethics-Education">&#182;</a></h1><h2 id="Mariah-A.-Knowles">Mariah A. Knowles<a class="anchor-link" href="#Mariah-A.-Knowles">&#182;</a></h2><h3 id="Feb-28,-2022">Feb 28, 2022<a class="anchor-link" href="#Feb-28,-2022">&#182;</a></h3>
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Education">Education<a class="anchor-link" href="#Education">&#182;</a></h1><h2 id="UW-Madison">UW-Madison<a class="anchor-link" href="#UW-Madison">&#182;</a></h2><ul>
-<li>(current) PhD, Library and Information Science</li>
-</ul>
-<h2 id="Western-Kentucky-University">Western Kentucky University<a class="anchor-link" href="#Western-Kentucky-University">&#182;</a></h2><ul>
-<li>(2018) MA, English Rhetoric/Composition</li>
-<li>(2016) MS, Computer Science</li>
-<li>(2014) BS, Computer Science, minor: Professional Writing</li>
-</ul>
-
+<h1 id="AI-Ethics-Education">AI Ethics Education<a class="anchor-link" href="#AI-Ethics-Education">&#182;</a></h1><h2 id="Mariah-A.-Knowles">Mariah A. Knowles<a class="anchor-link" href="#Mariah-A.-Knowles">&#182;</a></h2><h3 id="she/her/hers">she/her/hers<a class="anchor-link" href="#she/her/hers">&#182;</a></h3><h4 id="UW-Madison-iSchool">UW-Madison iSchool<a class="anchor-link" href="#UW-Madison-iSchool">&#182;</a></h4><h4 id="Wisconsin-Center-for-Ed-Research">Wisconsin Center for Ed Research<a class="anchor-link" href="#Wisconsin-Center-for-Ed-Research">&#182;</a></h4><h4 id="Badger-Precollege">Badger Precollege<a class="anchor-link" href="#Badger-Precollege">&#182;</a></h4><h5 id="mariah.knowles@wisc.edu">mariah.knowles@wisc.edu<a class="anchor-link" href="#mariah.knowles@wisc.edu">&#182;</a></h5><h5 id="Feb-28,-2022">Feb 28, 2022<a class="anchor-link" href="#Feb-28,-2022">&#182;</a></h5>
 </div>
 </div></section></section><section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Teaching">Teaching<a class="anchor-link" href="#Teaching">&#182;</a></h1>
 </div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pandas</span> <span class="kn">import</span> <span class="n">read_csv</span><span class="p">,</span> <span class="n">DataFrame</span>
-<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">HTML</span>
-<span class="kn">from</span> <span class="nn">os</span> <span class="kn">import</span> <span class="n">system</span>
-<span class="n">teaching</span> <span class="o">=</span> <span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;data/teaching.csv&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span>
-<span class="n">teaching</span><span class="p">[</span><span class="s2">&quot;Total&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">teaching</span><span class="p">[</span><span class="s2">&quot;Sections&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="n">teaching</span><span class="p">[</span><span class="s2">&quot;Hours&quot;</span><span class="p">]</span>
-<span class="n">teaching</span><span class="p">[[</span><span class="s2">&quot;Format&quot;</span><span class="p">,</span> <span class="s2">&quot;Total&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;Format&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s2">&quot;Total&quot;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[1]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Total</th>
-    </tr>
-    <tr>
-      <th>Format</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>WWW</th>
-      <td>71.0</td>
-    </tr>
-    <tr>
-      <th>F2F</th>
-      <td>57.8</td>
-    </tr>
-    <tr>
-      <th>Hybrid</th>
-      <td>36.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div></div></section></section><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">teaching</span><span class="p">[[</span><span class="s2">&quot;School&quot;</span><span class="p">,</span> <span class="s2">&quot;Total&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;School&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s2">&quot;Total&quot;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Total</th>
-    </tr>
-    <tr>
-      <th>School</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>KCTCS</th>
-      <td>117.8</td>
-    </tr>
-    <tr>
-      <th>UW-Madison</th>
-      <td>47.0</td>
-    </tr>
-    <tr>
-      <th>WKU</th>
-      <td>0.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 </div></section></section><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">topics</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Ethics&quot;</span><span class="p">,</span> <span class="s2">&quot;Writing&quot;</span><span class="p">,</span> <span class="s2">&quot;Programming&quot;</span><span class="p">,</span> <span class="s2">&quot;Networking&quot;</span><span class="p">,</span> <span class="s2">&quot;Web&quot;</span><span class="p">,</span> <span class="s2">&quot;Database&quot;</span><span class="p">,</span> <span class="s2">&quot;Office&quot;</span><span class="p">,</span> <span class="s2">&quot;Security&quot;</span><span class="p">,</span> <span class="s2">&quot;Data Science&quot;</span><span class="p">,</span> <span class="s2">&quot;Research and Data Analysis&quot;</span><span class="p">]</span>
-<span class="n">totals</span> <span class="o">=</span> <span class="p">[</span><span class="n">teaching</span><span class="p">[</span><span class="n">teaching</span><span class="p">[</span><span class="s2">&quot;Topic&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">topic</span><span class="p">)][</span><span class="s2">&quot;Total&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="k">for</span> <span class="n">topic</span> <span class="ow">in</span> <span class="n">topics</span><span class="p">]</span>
-<span class="n">DataFrame</span><span class="p">({</span><span class="s2">&quot;Total&quot;</span><span class="p">:</span> <span class="n">totals</span><span class="p">},</span> <span class="n">index</span><span class="o">=</span><span class="n">topics</span><span class="p">)</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s2">&quot;Total&quot;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">teaching</span><span class="p">[[</span><span class="s2">&quot;School&quot;</span><span class="p">,</span> <span class="s2">&quot;Total&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s2">&quot;School&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s2">&quot;Total&quot;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s2">&quot;bar&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14590,72 +14419,25 @@ div.jp-OutputPrompt {
 
 
 
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Total</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Web</th>
-      <td>60.0</td>
-    </tr>
-    <tr>
-      <th>Writing</th>
-      <td>55.0</td>
-    </tr>
-    <tr>
-      <th>Programming</th>
-      <td>54.8</td>
-    </tr>
-    <tr>
-      <th>Ethics</th>
-      <td>46.0</td>
-    </tr>
-    <tr>
-      <th>Database</th>
-      <td>39.0</td>
-    </tr>
-    <tr>
-      <th>Networking</th>
-      <td>36.0</td>
-    </tr>
-    <tr>
-      <th>Security</th>
-      <td>36.0</td>
-    </tr>
-    <tr>
-      <th>Office</th>
-      <td>18.0</td>
-    </tr>
-    <tr>
-      <th>Data Science</th>
-      <td>12.0</td>
-    </tr>
-    <tr>
-      <th>Research and Data Analysis</th>
-      <td>0.0</td>
-    </tr>
-  </tbody>
-</table>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>&lt;AxesSubplot:xlabel=&#39;School&#39;&gt;</pre>
 </div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="data:image/png;base64,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
+"
+>
 </div>
 
 </div>
@@ -14754,28 +14536,16 @@ div.jp-OutputPrompt {
 
 </div>
 
-</div></section></section><section><section>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Other-Teaching-Related-Activities">Other Teaching-Related Activities<a class="anchor-link" href="#Other-Teaching-Related-Activities">&#182;</a></h1><ul>
-<li>Volunteer  Instructor,  Microsoft  TEALS,  Madison  East  High School:  Fa19, Sp20</li>
-<li>"Telling Stories of Transitions:  Sharing the Endeavors of Quant and Qual Research."  For Modupe Adewuyi’s NURS 4434 Vulnerable Populations, Kennesaw State University: SP22</li>
-</ul>
-
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Research">Research<a class="anchor-link" href="#Research">&#182;</a></h1>
-</div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div></section></section><section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">system</span><span class="p">(</span><span class="s2">&quot;pybtex-format iconf-2022/refs.bib iconf-2022/refs.html&quot;</span><span class="p">)</span>
-<span class="n">HTML</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s2">&quot;iconf-2022/refs.html&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">topics</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Ethics&quot;</span><span class="p">,</span> <span class="s2">&quot;Writing&quot;</span><span class="p">,</span> <span class="s2">&quot;Programming&quot;</span><span class="p">,</span> <span class="s2">&quot;Networking&quot;</span><span class="p">,</span> <span class="s2">&quot;Web&quot;</span><span class="p">,</span> <span class="s2">&quot;Database&quot;</span><span class="p">,</span> <span class="s2">&quot;Office&quot;</span><span class="p">,</span> <span class="s2">&quot;Security&quot;</span><span class="p">,</span> <span class="s2">&quot;Data Science&quot;</span><span class="p">,</span> <span class="s2">&quot;Research and Data Analysis&quot;</span><span class="p">]</span>
+<span class="n">totals</span> <span class="o">=</span> <span class="p">[</span><span class="n">teaching</span><span class="p">[</span><span class="n">teaching</span><span class="p">[</span><span class="s2">&quot;Topic&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">topic</span><span class="p">)][</span><span class="s2">&quot;Total&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span> <span class="k">for</span> <span class="n">topic</span> <span class="ow">in</span> <span class="n">topics</span><span class="p">]</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">DataFrame</span><span class="p">({</span><span class="s2">&quot;Total&quot;</span><span class="p">:</span> <span class="n">totals</span><span class="p">},</span> <span class="n">index</span><span class="o">=</span><span class="n">topics</span><span class="p">)</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s2">&quot;Total&quot;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s2">&quot;bar&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14795,33 +14565,25 @@ div.jp-OutputPrompt {
 
 
 
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html>
-<head><meta name="generator" content="Pybtex">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Bibliography</title>
-</head>
-<body>
-<dl>
-<dt>1</dt>
-<dd>Mariah&nbsp;A Knowles and David&nbsp;Williamson Shaffer.
-Hierarchical epistemic network analysis.
-In <em>Second International Conference on Quantitative Ethnography: Conference Proceedings Supplement</em>, 31. 2021.</dd>
-<dt>2</dt>
-<dd>Mariah&nbsp;A. Knowles and Lauren Scanlon.
-Networks of one and justice.
-Network Science: Networked Justice.</dd>
-<dt>3</dt>
-<dd>Mariah&nbsp;A Knowles.
-Telling stories of transitions: a demonstration of nonlinear epistemic network analysis.
-In <em>International Conference on Quantitative Ethnography</em>, 114–128. Springer, 2021.</dd>
-<dt>4</dt>
-<dd>Mariah&nbsp;A Knowles.
-Five motivating concerns for ai ethics instruction.
-<em>Proceedings of the Association for Information Science and Technology</em>, 58(1):472–476, 2021.</dd>
-</dl></body></html>
 
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>&lt;AxesSubplot:&gt;</pre>
+</div>
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedImage jp-OutputArea-output ">
+<img src="data:image/png;base64,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
+"
+>
 </div>
 
 </div>
@@ -14830,21 +14592,27 @@ Five motivating concerns for ai ethics instruction.
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
+</div></section></section><section><section>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Other-Teaching-Related-Activities">Other Teaching-Related Activities<a class="anchor-link" href="#Other-Teaching-Related-Activities">&#182;</a></h1><ul>
+<li>Volunteer  Instructor,  Microsoft  TEALS,  Madison  East  High School:  Fa19, Sp20</li>
+<li>"Telling Stories of Transitions:  Sharing the Endeavors of Quant and Qual Research."  For Modupe Adewuyi’s NURS 4434 Vulnerable Populations, Kennesaw State University: SP22</li>
+</ul>
 
-     </div>
 </div>
+</div></section></section><section><section>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Research">Research<a class="anchor-link" href="#Research">&#182;</a></h1>
 </div>
-</div>
+</div></section></section><section><section>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="http://yuml.me/296e5df2.svg" alt="http://yuml.me/edit/296e5df2"></p>
 
-</div></div></section></section>
+</div>
+</div></section></section>
 </div>
 </div>
 </body>
