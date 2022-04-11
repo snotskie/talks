@@ -1,5 +1,31 @@
 
 @startuml
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
+
+skinparam packageStyle rectangle
+
+package Outcomes {
+    (I want to create a map)
+    (of the moral theoretical commitments in AI Ethics Ed)
+    (organized by under what conditions [empirical or theoretical] each is appropriate.)
+}
+
+(I want to create a map) -- (of the moral theoretical commitments in AI Ethics Ed)
+(of the moral theoretical commitments in AI Ethics Ed) -- (organized by under what conditions [empirical or theoretical] each is appropriate.)
+
+package Contributions {
+    (This satisfies a number of needs.)
+    (Teachers entering this space are often non-experts and resource constrained.)
+    (Teachers in this space often teach how they were taught.)
+    (Teachers in this space are putting in a lot of thinking! There's whole conferences!)
+    (Teachers are doing this kind of teaching in a wide range of disciplines)
+    (because many are caught up in the race to shape normative and practical guidance around AI.)
+}
+     
+Outcomes -- (This satisfies a number of needs.)
+(This satisfies a number of needs.) -- (Teachers entering this space are often non-experts and resource constrained.)
+(This satisfies a number of needs.) -- (Teachers in this space often teach how they were taught.)
+(This satisfies a number of needs.) -- (Teachers in this space are putting in a lot of thinking! There's whole conferences!)
+(This satisfies a number of needs.) -- (Teachers are doing this kind of teaching in a wide range of disciplines)
+(Teachers are doing this kind of teaching in a wide range of disciplines) -- (because many are caught up in the race to shape normative and practical guidance around AI.)
+
 @enduml
