@@ -10,11 +10,13 @@ LIS 640	su19	WWW	UW-Madison	Graduate	Writing	1	1
 LIS 351	sp19	Hybrid	UW-Madison	Undergraduate	Writing, Web Design and Development, Database Design, Security, Ethics and Social Issues	4	3
 LIS 351	fa19	Hybrid	UW-Madison	Undergraduate	Writing, Web Design and Development, Database Design, Security, Ethics and Social Issues	4	3
 LIS 351	sp20	Hybrid	UW-Madison	Undergraduate	Writing, Web Design and Development, Database Design, Security, Ethics and Social Issues	4	3
+CIT 140	sp23	WWW	KCTCS	Undergraduate	Computer Programming, Data Science	1	3
 CIT 144	fa20	WWW	KCTCS	Undergraduate	Computer Programming, Data Science	1	3
 CIT 144	sp21	WWW	KCTCS	Undergraduate	Computer Programming, Data Science	1	3
 CIT 144	fa21	WWW	KCTCS	Undergraduate	Computer Programming, Data Science	1	3
 CIT 144	sp22	WWW	KCTCS	Undergraduate	Computer Programming, Data Science	1	3
 CIT 144	fa22	WWW	KCTCS	Undergraduate	Computer Programming, Data Science	1	3
+CIT 144	sp23	WWW	KCTCS	Undergraduate	Computer Programming, Data Science	1	3
 CIT 111	fa17	WWW	KCTCS	Undergraduate	Computer Networking and Hardware	1	3
 CIT 143	fa17	F2F	KCTCS	Undergraduate	Computer Programming	1	3
 CIT 143	sp18	F2F	KCTCS	Undergraduate	Computer Programming	1	3
@@ -36,6 +38,7 @@ CIT 120	sp21	WWW	KCTCS	Undergraduate	Computer Programming	1	3
 CIT 120	fa21	WWW	KCTCS	Undergraduate	Computer Programming	1	3
 CIT 120	sp22	WWW	KCTCS	Undergraduate	Computer Programming	1	3
 CIT 120	fa22	WWW	KCTCS	Undergraduate	Computer Programming	1	3
+CIT 120	sp23	WWW	KCTCS	Undergraduate	Computer Programming	1	3
 CIT 155	sp17	F2F	KCTCS	Undergraduate	Web Design and Development	1	3
 CIT 155	fa19	WWW	KCTCS	Undergraduate	Web Design and Development	1	3
 CIT 155	fa20	WWW	KCTCS	Undergraduate	Web Design and Development	1	3
